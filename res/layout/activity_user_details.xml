@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fb0f62"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="139dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Name-"
+        android:id="@+id/textView2"
+        android:textColor="#fefcfc"
+        android:textSize="35dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="40dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/c_name"
+        android:textSize="35dp"
+        android:background="#34a8e7"
+        android:textColor="#050404" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Address-"
+        android:id="@+id/textView4"
+        android:textColor="#fbf4f4"
+        android:textSize="35dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="40dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="35dp"
+        android:id="@+id/c_address"
+        android:background="#34a8e7"
+        android:textColor="#060404" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Principle-"
+        android:id="@+id/textViews"
+        android:textColor="#fbf4f4"
+        android:textSize="35dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="40dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="35dp"
+        android:id="@+id/u_principle"
+        android:background="#34a8e7"
+        android:textColor="#060404" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Gold-"
+        android:id="@+id/textView9"
+        android:textColor="#fcfbfb"
+        android:textSize="35dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="40dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/c_gold"
+        android:textSize="35dp"
+        android:background="#34a8e7"
+        android:textColor="#040404" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Weight-"
+        android:id="@+id/textView10"
+        android:textColor="#fcfbfb"
+        android:textSize="35dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="40dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/c_weight"
+        android:textSize="35dp"
+        android:background="#34a8e7"
+        android:textColor="#040404" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Deposit Date-"
+        android:id="@+id/textView5"
+        android:textColor="#fcfbfb"
+        android:textSize="35dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="40dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/c_ddate"
+        android:textSize="35dp"
+        android:background="#34a8e7"
+        android:textColor="#040404" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Withdrawl Date"
+        android:id="@+id/textView8"
+        android:textColor="#fbf6f6"
+        android:textSize="35dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="40dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="35dp"
+        android:id="@+id/c_withdrawl"
+        android:background="#34a8e7"
+        android:textColor="#030303" />
+
+    <DatePicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/udp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:layout_below="@+id/textView11"
+        android:layout_centerHorizontal="true"
+        android:calendarTextColor="#050505"
+        android:background="#108ca5"
+        android:yearListSelectorColor="#bd1a1a"
+        android:datePickerMode="spinner"
+        android:calendarViewShown="false" />
+
+    <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Rate-"
+            android:id="@+id/tv10"
+            android:textColor="#f9f6f6"
+            android:textSize="35dp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:minHeight="40dp"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:ems="10"
+            android:textSize="35dp"
+            android:id="@+id/c_rate"
+            android:background="#34a8e7" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="Amount-"
+        android:textSize="30dp"
+        android:textColor="#f8f8f8"
+        android:id="@+id/amnt" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:minHeight="100dp"
+        android:background="#fdb33c"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textColor="#040404"
+        android:id="@+id/c_amount" />
+
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="90dp"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="10dp"
+        android:weightSum="1"
+        android:id="@+id/radioGroup"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_alignRight="@+id/textView3"
+        android:layout_alignEnd="@+id/textView3">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:text="Paid"
+            android:id="@+id/C_paid"
+            android:layout_gravity="center_horizontal"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:checked="false"
+            android:textColor="#faf9f9"
+            android:focusable="false"
+            android:buttonTint="#0e1149" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Not Paid"
+            android:id="@+id/c_notpaid"
+            android:layout_gravity="center_horizontal"
+            android:textSize="25dp"
+            android:layout_weight="0.13"
+            android:textStyle="bold"
+            android:checked="false"
+            android:textColor="#fdf9f9"
+            android:buttonTint="#0e1149" />
+    </RadioGroup>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fb0f62"
+        android:weightSum="1">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calculate"
+            android:id="@+id/c_calculate"
+            android:layout_marginTop="12dp" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DONE"
+            android:id="@+id/c_done"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="12dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DELETE"
+            android:layout_marginLeft="40dp"
+            android:id="@+id/c_delete"
+            android:layout_marginTop="12dp" />
+        </LinearLayout>
+
+</LinearLayout>
+</ScrollView>

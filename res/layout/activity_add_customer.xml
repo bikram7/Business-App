@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#d82038">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ed0a56"
+        android:layout_margin="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Name-"
+            android:id="@+id/t1"
+            android:textColor="#fbfafa"
+            android:textSize="35dp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:id="@+id/u_name"
+            android:layout_below="@+id/t1"
+            android:textSize="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:background="#34b2b4" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Address-"
+            android:id="@+id/t2"
+            android:layout_below="@+id/u_name"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textColor="#faf6f6"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="70dp"
+            android:inputType="textPostalAddress"
+            android:ems="10"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:id="@+id/u_address"
+            android:layout_below="@+id/t2"
+            android:textSize="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:background="#34b2b4" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Principle-"
+            android:id="@+id/t3"
+            android:layout_below="@+id/u_address"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textColor="#faf6f6"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:minHeight="40dp"
+            android:ems="10"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:textSize="35dp"
+            android:editable="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/c_principle"
+            android:layout_below="@+id/t3"
+            android:background="#34b2b4" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Gold-"
+            android:id="@+id/textView15"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textSize="35dp"
+            android:textColor="#fbfafa"
+            android:textStyle="bold"
+            android:layout_below="@+id/c_principle" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:minHeight="40dp"
+            android:ems="10"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:textSize="35dp"
+            android:editable="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/c_gold"
+            android:layout_below="@+id/textView15"
+            android:background="#34b2b4" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Weight-"
+            android:id="@+id/textView16"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textSize="35dp"
+            android:textColor="#fbfafa"
+            android:textStyle="bold"
+            android:layout_below="@+id/c_gold" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:minHeight="40dp"
+            android:ems="10"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:textSize="35dp"
+            android:editable="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/c_weight"
+            android:layout_below="@+id/textView16"
+            android:background="#34b2b4" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Deposit Date-"
+            android:id="@+id/textView11"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textSize="35dp"
+            android:textColor="#fbfafa"
+            android:textStyle="bold"
+            android:layout_below="@+id/c_weight" />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:id="@+id/u_submit"
+            android:layout_marginTop="44dp"
+            android:layout_below="@+id/udpp"
+            android:layout_centerHorizontal="true" />
+
+        <DatePicker
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/udpp"
+            android:calendarTextColor="#FF060202"
+            android:background="#108ca5"
+            android:yearListSelectorColor="#b62020"
+            android:datePickerMode="spinner"
+            android:calendarViewShown="false"
+            android:layout_below="@+id/textView11"
+            android:layout_centerHorizontal="true" />
+
+
+    </RelativeLayout>
+</ScrollView>
